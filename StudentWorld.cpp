@@ -74,7 +74,7 @@ int StudentWorld::init()
         actorPtrs.push_back(new Barrel(this, x, y, player));
         barrelCount++;
         setLocation(x, y);
-        digField(x, y);
+        //digField(x, y);
     }
     return GWSTATUS_CONTINUE_GAME;
 }
